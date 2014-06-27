@@ -13,5 +13,5 @@ set :repository,  "git@github.com:mmkserver/mmksrv.git"
 set :deploy_via, :copy
 set :copy_strategy, :export
 
-set :user, 'deploy'
+set :user, 'root'
 set :use_sudo, false

@@ -1,4 +1,4 @@
-application = "mmk"
+application = "health"
 rails_env = "production"
 ruby = "1.9.3"
 deploy_to = "/srv/#{application}"

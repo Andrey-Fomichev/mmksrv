@@ -1,6 +1,6 @@
 require "whenever/capistrano"
 
-set :application, "mmk"
+set :application, "health"
 
 set :rvm_ruby_string, '1.9.3'
 set :rvm_type, :user

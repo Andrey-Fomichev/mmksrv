@@ -232,7 +232,7 @@ ActiveRecord::Schema.define(:version => 20111205090956) do
     t.datetime "updated_at"
     t.string   "first_name"
     t.string   "last_name"
-    t.integer  "gender"
+    t.integer  "gender",               :limit => 255
     t.date     "birthday"
     t.string   "type"
     t.string   "middle_name"
